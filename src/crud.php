@@ -13,9 +13,9 @@ function read($connection, $name, $surname) {
     $statement->bindParam(':name', $name, PDO::PARAM_STR);
     $statement->bindParam(':surname', $surname, PDO::PARAM_STR);
     $statement->execute();
-    $data = $statement->fetchAll(PDO::FETCH_ASSOC);
+    $donnee = $statement->fetchAll(PDO::FETCH_ASSOC);
 
-    return $data;
+    return $donnee;
 }
 
 $name = $_GET['name'];
