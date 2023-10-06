@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="fr">
 <head>
@@ -7,6 +8,7 @@
   <!-- <script src="script.js"></script> -->
 </head>
 <body>
- 
+=======
 </body>
 </html>
+>>>>>>> upstream/mysql-crud
