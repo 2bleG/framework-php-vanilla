@@ -12,10 +12,16 @@ $statement = $connection->query("SELECT * FROM contacts WHERE `name` =  \"OGIER\
 $data = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 //fonction create 
-$statement = $connection->prepare("INSERT INTO `contacts` (`name`, `surname`, `status`) VALUES (?, ?, 'online') ");
-$statement->bindParam(1,$_GET["name"]);
-$statement->bindParam(2,$_GET["surname"]);
-$statement->execute();
+function create ($connection, $name, $surname) {
+    $statement = $connection->prepare("INSERT INTO `contacts` (`name`, `surname`, `status`) VALUES (?, ?, 'online')");
+    $statement->bindParam(1, $name);
+    $statement->bindParam(2, $surname);
+    $statement->execute();
+}
+
+$name = $_GET["name"];
+$surname = $_GET["surname"];
+create($connection, $name, $surname);
 
 //fonction delete
 $val = 20;
@@ -38,5 +44,3 @@ function update($connection, $id) {
 }
 
 update($connection, $cible);
-
-$hey
