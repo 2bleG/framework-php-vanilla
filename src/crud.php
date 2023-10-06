@@ -9,7 +9,7 @@ $data = $statement-> fetchAll(PDO::FETCH_ASSOC);
 
 //fonction getById
 
-$statement = $connexion->query("SELECT * FROM contacts WHERE `name` = 'Ogier' AND `surname` = '".htmlspecialchars( $_GET["surname"])."'");
+$statement = $connexion->query("SELECT * FROM contacts WHERE `name` = 'Ogier' AND `surname` = '".htmlspecialchars($_GET["surname"])."'");
 $data = $statement-> fetchAll(PDO::FETCH_ASSOC);
 dd($data);
 
