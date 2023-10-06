@@ -6,11 +6,4 @@
   <link rel="stylesheet" href="style.css">
   <!-- <script src="script.js"></script> -->
 </head>
-<<<<<<< HEAD
 <body>
- 
-</body>
-</html>
-=======
-<body>
->>>>>>> upstream/mysql-crud
