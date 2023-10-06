@@ -8,8 +8,19 @@ $statement = $connection->query("SELECT * FROM contacts WHERE 1");
 $data = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 //fonction getById
-$statement = $connection->query("SELECT * FROM contacts WHERE `name` =  \"OGIER\" AND `surname` = '".htmlspecialchars( $_GET['surname'])."'");
-$data = $statement->fetchAll(PDO::FETCH_ASSOC);
+function read($connection, $name, $surname) {
+    $statement = $connection->prepare("SELECT * FROM contacts WHERE `name` = :name AND `surname` = :surname");
+    $statement->bindParam(':name', $name, PDO::PARAM_STR);
+    $statement->bindParam(':surname', $surname, PDO::PARAM_STR);
+    $statement->execute();
+    $data = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+    return $data;
+}
+
+$name = $_GET['name'];
+$surname = $_GET['surname'];
+$result = read($connection, $name, $surname);
 
 //fonction create 
 function create ($connection, $name, $surname) {
