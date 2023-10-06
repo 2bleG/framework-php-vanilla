@@ -1,8 +1,6 @@
 <?php 
 require_once "./src/dbConnect.php";
 
-
-
 //fonction getAll
 $statement = $connection->query("SELECT * FROM contacts WHERE 1");
 $data = $statement->fetchAll(PDO::FETCH_ASSOC);
