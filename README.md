@@ -88,22 +88,3 @@ L'utilisation d'ORMs tiers non développés par l'équipe est interdite.
 
 Rendu
 Le projet doit être rendu sur GitHub en mode public. Utilisation efficace de Git, y compris la création de branches, les commits fréquents et un fichier README.md explicatif.
-
-Grille de notation
-Utilisation de Git : 2 points
-
-Architecture PHP : 4 points
-
-Fichier de configuration JSON : 1 point
-
-Faire une requête simple en PHP & SQL : 1 point
-
-CRUD (Create, Read, Update, Delete) : 4 points
-
-Faire une recherche : 2 points
-
-Faire un filtre : 2 points
-
-Le produit est utilisable : 2 points
-
-Le visuel est travaillé : 2 points
