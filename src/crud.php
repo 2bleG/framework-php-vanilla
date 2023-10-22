@@ -107,7 +107,3 @@ function queryBuilder($method, $table, ...$payload)
 
     return $query;
 } 
-// dd(queryBuilder("c", "voiture", ["modele" =>"Ferrari"], ["couleur" => "rouge" ], ["test" => "taste"]));
-// dd(queryBuilder("r", "contacts",  ["name" => "Delaistre" ]));
-// dd(queryBuilder("u", "voiture", ["modele" => "Ferrari" ], ["couleur" => "rouge" ], ["id" => 2]));
-// dd(queryBuilder("d", "voiture", ["modele" => "Ferrari" ], ["couleur" => "rouge" ]));

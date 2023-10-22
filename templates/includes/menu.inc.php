@@ -1,4 +1,5 @@
 <ul>
     <li><a href="./?page=accueil">Acceuil</a></li>
-    <li><a href="./?page=forum">Forum</a></li>
+    <li><a href="./?page=form">inscription</a></li>
+    <li><a href="./?page=listUsers">liste</a></li>
 </ul>
