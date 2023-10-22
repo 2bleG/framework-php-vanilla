@@ -1,24 +1,33 @@
 ReadMe - Annuaire NWS
 
+lien de la page d'acceuil en cas de soucis : http://localhost/devoir1annee2/framework-php-vanilla/?page=accueil
+
 Page d'Accueil
 
 En arrivant sur la page d'accueil, vous trouverez une liste de 3 liens :
 
-Accueil : Cette option vous ramène à la page d'accueil, utile si vous vous trouvez sur d'autres pages. Inscription : Cliquez ici pour vous inscrire en fournissant votre nom, prénom, passions, et en spécifiant votre niveau de connaissance de l'école (connaît, entendu, ne connaît pas). Liste : Cette option vous redirige vers la page qui affiche la liste complète des inscrits.
+Accueil : Cette option vous ramène à la page d'accueil, utile si vous vous trouvez sur d'autres pages. 
+Inscription : Cliquez ici pour vous inscrire en fournissant votre nom, prénom, passions, et en spécifiant votre niveau de connaissance de l'école (connaît, entendu, ne connaît pas). 
+Liste : Cette option vous redirige vers la page qui affiche la liste complète des inscrits.
 
 Page d'Inscription
 
-Sur la page d'inscription, vous pouvez fournir vos informations personnelles comme : Nom : Votre nom. Prénom : Votre prénom. Passions : Vous pouvez indiquer vos centres d'intérêt ou passions. Statut : Choisissez parmi trois options pour votre niveau de connaissance de l'école : "Know" (connaît), "Heard" (a entendu), ou "Away" (ne connaît pas du tout). Une fois que vous avez rempli ces informations, cliquez sur le bouton d'inscription pour ajouter vos données à la liste des inscrits.
+Sur la page d'inscription, vous pouvez fournir vos informations personnelles comme : 
+Nom : Votre nom. 
+Prénom : Votre prénom. 
+Passions : Vous pouvez indiquer vos centres d'intérêt ou passions. 
+Statut : Choisissez parmi trois options pour votre niveau de connaissance de l'école : "Know" (connaît), "Heard" (a entendu), ou "Away" (ne connaît pas du tout). 
+Une fois que vous avez rempli ces informations, cliquez sur le bouton d'inscription pour ajouter vos données à la liste des inscrits.
 
 Page de Liste
 
 La page de liste affiche la liste complète des inscrits avec des options de filtrage et de recherche :
 
-Filtrage par Statut : Vous pouvez filtrer les inscrits en fonction de leur statut en sélectionnant l'une des options : "Know," "Heard," ou "Away." Barre de Recherche : Utilisez la barre de recherche pour trouver des inscrits en fonction de leur nom, prénom ou passions. Chaque ligne du tableau de la liste comprend également une colonne "Action" avec deux liens :
-
-Supprimer : Cliquez sur "Supprimer" pour ouvrir une boîte de dialogue de confirmation qui vous demande si vous êtes sûr de vouloir supprimer l'inscription. Modifier : Le lien "Modifier" vous permet de mettre à jour les informations de l'inscription, y compris le nom, le prénom et les passions.
-
-lien de la page d'acceuil : http://localhost/devoir1annee2/framework-php-vanilla/?page=accueil
+Filtrage par Statut :
+Vous pouvez filtrer les inscrits en fonction de leur statut en sélectionnant l'une des options : "Know," "Heard," ou "Away." Barre de Recherche : 
+Utilisez la barre de recherche pour trouver des inscrits en fonction de leur nom, prénom ou passions. Chaque ligne du tableau de la liste comprend également une colonne "Action" avec deux liens :
+Supprimer : Cliquez sur "Supprimer" pour ouvrir une boîte de dialogue de confirmation qui vous demande si vous êtes sûr de vouloir supprimer l'inscription. 
+Modifier : Le lien "Modifier" vous permet de mettre à jour les informations de l'inscription, y compris le nom, le prénom et les passions.
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
