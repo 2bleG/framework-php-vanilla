@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Erreur lors de la mise à jour.";
     }
 }
+
 ?>
 
 <form action="" method="post">
@@ -44,15 +45,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <ul>
         <li>
             <label for="name">Nom&nbsp;:</label>
-            <input type="text" id="name" name="name" value="Votre nom">
+            <input type="text" id="name" name="name" value="">
         </li>
         <li>
             <label for="surname">Prénom&nbsp;:</label>
-            <input type="text" id="surname" name="surname" value="Votre prénom">
+            <input type="text" id="surname" name="surname" value="">
         </li>
         <li>
             <label for="passions">Passions&nbsp;:</label>
-            <input type="text" id="passions" name="passions" value="Vos passions">
+            <input type="text" id="passions" name="passions" value="">
         </li>
     </ul>
 

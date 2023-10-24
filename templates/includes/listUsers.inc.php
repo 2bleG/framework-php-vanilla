@@ -44,7 +44,7 @@ if ($filterStatus != '') {
     <input type="text" id="search" name="search" placeholder="Entrez un prénom, nom ou passions">
 </form>
 
-<table>
+<table id="table">
     <thead>
         <tr>
             <th>Prénom</th>
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
     searchInput.addEventListener("input", performSearchAndFilter);
     statusFilter.addEventListener("change", performSearchAndFilter);
 
-    performSearchAndFilter(); // Exécuter la recherche lors du chargement de la page
+    performSearchAndFilter();
 });
 </script>
 

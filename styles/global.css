@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#filterForm {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+}
+
+select,
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+table th {
+    background-color: #333;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #444;
+}
+
+table tr:nth-child(odd) {
+    background-color: #222;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+a.delete-link {
+    background-color: #f00;
+}
+a.delete-link:hover {
+    background-color: #f44;
+}
+
+#search {
+    width: 50%;
+}
+
+#statusFilter {
+    width: 30%;
+}
+
+.confirmation-button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.confirmation-button:hover {
+    background-color: #f44;
+}
+
+
+#header {
+    list-style: none;
+    padding: 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#header li {
+    margin: 0;
+    padding: 10px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+form ul {
+    list-style: none;
+    padding: 0;
+}
+
+form ul li {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#form {
+    background: linear-gradient(0deg, rgba(135, 135, 135, 0.2), rgba(255, 255, 255, 0.25));
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 37%);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 90%;
+    margin: 0 auto;
+}

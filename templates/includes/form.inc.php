@@ -5,7 +5,7 @@ require './configs/global.php';
 
 ?>
 
-<form action="#" method="post">
+<form action="#" method="post" id="form">
     <ul>
         <li>
             <label for="name">Nom&nbsp;:</label>
@@ -39,7 +39,6 @@ if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['passions'
     $passions = $_POST['passions'];
     $status = $_POST['status'];
 
-    // Créez un tableau associatif des valeurs à insérer
     $data = [
         'name' => $name,
         'surname' => $surname,
@@ -47,7 +46,6 @@ if (isset($_POST['name']) && isset($_POST['surname']) && isset($_POST['passions'
         'status' => $status
     ];
 
-    // Exécutez la requête pour insérer les données dans la base de données
     $query = "INSERT INTO contacts (name, surname, passions, status) VALUES (:name, :surname, :passions, :status)";
     $stmt = $connection->prepare($query);
 

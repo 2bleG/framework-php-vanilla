@@ -1,7 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/global.css">
+    <title>Index</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
 <?php
 
 require_once './configs/bootstrap.php';
-// ob_start();
 if(isset($_GET["page"])){
     fromInc($_GET['page']);
 }
@@ -14,6 +27,4 @@ $pageContent = [
     ]
 ];
 
-// $pageContent = ob_get_clean();
-// include "./templates/layouts/". $_GET["html"] .".layout.php";
 include "./templates/layouts/html.layout.php";
