@@ -29,7 +29,7 @@ Utilisez la barre de recherche pour trouver des inscrits en fonction de leur nom
 Supprimer : Cliquez sur "Supprimer" pour ouvrir une boîte de dialogue de confirmation qui vous demande si vous êtes sûr de vouloir supprimer l'inscription. 
 Modifier : Le lien "Modifier" vous permet de mettre à jour les informations de l'inscription, y compris le nom, le prénom et les passions.
 
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Cahier des charges pour le projet "Annuaire des Nouveaux Étudiants" :
 
